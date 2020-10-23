@@ -1,0 +1,43 @@
+http://localhost:2678/
+http://localhost:2678/api/products
+http://localhost:2678/add_products.html
+
+------------------------------------------
+package.json
+"scripts": {
+    "start": "node server.js"
+  },
+
+npm init
+npm i sequelize mysql2 express
+
+-----------------------------------
+in vs code
+node server.js
+---------------
+after creating the table in sql command line
+use cbsocialmediadb;
+show tables;
+describe users;
+describe products;
+
+-------------------------------------------------
+
+Then go to postman
+get req
+
+post req --> body --> x-ww  -> name - kumar --> send
+
+------------------------------------
+we write
+Product.findAll()
+and sequilize runs this query for us  
+SELECT `id`, `name`, `manufacturer`, `price`, `createdAt`, `updatedAt` FROM `products` AS `products`;
+----------------------------------------
+
+${``) create new element
+
+
+--------------------------------------------------
+
+remove slim , intigrigy from sript code.jquery
